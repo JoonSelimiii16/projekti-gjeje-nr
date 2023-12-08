@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gjeje numrin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Gjeje numrin</h1>
+    <p class="nentitulli">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Excepturi nisi consequuntur repellendus at, voluptatum nihil sequi amet voluptas quisquam molestias labore
+        beatae quidem? Eaque corporis itaque delectus placeat, similique harum!</p>
+    
+    <div class="mbeshtjellsi">
+        
+        <form>
+            <label for="numri" class="label">Shkruaj nje numer (1-100):</label>
+            <input type="number" name="numri" id="numri" class="input" min="1" max="100">
+            <div class="butonat">
+                <button type="submit" id="provo-btn">
+                    Provo
+                </button>
+                <button id="rifillo-btn">
+                    Luaj perseri
+                </button>
+            </div>
+            
+        </form>
+        <div class="rezultati">
+            
+            <p id="teksti provo">Provo perseri</p>
+            <p>Ke provuar numrat: <span id="historia-numrave"></span> </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

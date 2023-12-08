@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+}
+.label{
+    display: block;
+    margin: 0.5rem;
+}
+
+.input {
+    display: block;
+    margin: 0 auto;
+    height: 2.5rem;
+    border-radius: 0.75rem;
+    font-size: 1.5rem;
+    width: 10rem;
+}
+button{
+    background-color: rgb(97, 25, 127);
+    color: white;
+    border-radius: 0.75rem;
+    height: 2.5rem;
+    width: 10rem;
+
+}
+
+button:hover{
+    background: purple;
+}
+
+.mbeshtjellsi{
+    background: #f4f4ff;
+    max-width: 30rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 0.90rem;
+    
+}
+.rezultati{
+    background: #fff;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+}
+.butonat{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0 ;
+}
+.nentitull{
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
